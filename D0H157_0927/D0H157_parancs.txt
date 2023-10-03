@@ -1,1 +1,55 @@
+a.) Változtassa meg a jelszavát!
+
+
+
+b.) Jelenítse meg a rendszer kézikönyv gyűjteményét!
+
+
+
+c.) Írattassa ki a munkajegyzék nevét, amiben éppen dolgozik!
+
+
+
+d.) Kik vannak bejelentkezve a rendszerbe? Mióta használják azt? Mióta inaktívak? Milyen parancsot
+futtatnak éppen?
+
+
+
+e.) Jelenítse meg az utoljára bejelentkezett felhasználókat! Jelenítse meg az utolsó 5 bejelentkezést!
+
+
+
+f.) Írattassa ki azokat a felhasználókat, akik be vannak jelentkezve!
+
+
+
+g.) Kik vannak bejelentkezve, mikor és honnan jelentkezett be!
+
+
+
+h.) Ki mikor melyik gépre jelentkezett be és hány perce nem csinál semmit!
+
+
+
+i.) Ki van bejelentkezve, a teljes neve, mikor jelentkezett be!
+
+
+
+j.) Írjon egy üzenetet a szomszédjának!
+
+
+
+k.) Nézze meg a date parancs kézikönyvét!
+
+
+
+l.) Hogyan kell paraméterezni a date parancsot ahhoz, hogy csak az évszámot írja ki?
+
+
+
+m.) Hogyan lehet megszakítani az éppen futó programot?
+
+
+
+n.) Törölje a képernyőt!
 

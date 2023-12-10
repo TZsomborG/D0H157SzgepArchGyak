@@ -1,0 +1,107 @@
+html {
+    font-size: 18px;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    left: 10%;
+    bottom: 5%;
+    scrollbar-color: #666 #201c29;
+    background-color: #07090f;
+    color: whitesmoke;
+    text-align: justify;
+}
+
+
+.cim {
+    font-size: 45px;
+    font-family: 'Times New Roman', serif;
+    margin: auto;
+    color: #d22f12;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.logo {
+    max-width: 300px;
+}
+
+a:link {
+    color: #d22f12;
+}
+
+a:visited {
+    color: #d22f12;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+a:active {
+    color: #dd4d6c;
+}
+
+table, tr, td {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+
+    border: 1px solid whitesmoke;
+    border-spacing: 0.2rem;
+    width: 100%;
+}
+
+tr, td {
+    border: 1px solid whitesmoke;
+    text-align: center;
+}
+
+th {
+    color: #d22f12
+}
+
+h2, h3 {
+    text-decoration: double;
+}
+
+h2 {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-decoration: underline;
+    color: #52ccff;
+    font-size: 24px;
+}
+
+h3 {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    color: #f7a50b;
+}
+
+li {
+    list-style: none;
+    padding: .5rem;
+    text-decoration: underline;
+    color: #f7a50b;
+    font-size: 20px;
+}
+
+
+.nev {
+    text-align: center;
+    font-family: "consolas", serif;
+    font-size: 20px;
+}
+
+.forras {
+    font-size: 16px;
+}

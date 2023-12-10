@@ -4,13 +4,13 @@ FILE="gtfs.zip"
 URL="https://gtfsapi.mvkzrt.hu/gtfs/gtfs.zip"
 DIR="${FILE%.*}"
 
-# Function to download and extract the GTFS file
+# Funkció a GTFS fájl letöltéséhez és kibontásához
 download_and_extract_gtfs() {
   echo "Letöltjük a $FILE fájlt a $URL címről..."
   wget "$URL" && unzip -o "$FILE" -d "$DIR"
 }
 
-# Function to check if a directory exists and clear its contents
+# Funkció annak ellenőrzésére, hogy létezik-e könyvtár, és törli a tartalmát
 check_and_clear_directory() {
   if [ -d "$1" ]; then
     echo "A $1 mappa már létezik, töröljük a tartalmát..."
@@ -21,7 +21,7 @@ check_and_clear_directory() {
   fi
 }
 
-# Check if the GTFS file already exists and download/extract if necessary
+# Ellenőrizze, hogy létezik-e már a GTFS fájl, és szükség esetén töltse le/csomagolja ki
 if [ -f "$FILE" ]; then
   echo "A $FILE fájl már létezik, töröljük..."
   rm "$FILE"
@@ -29,7 +29,7 @@ fi
 
 check_and_clear_directory "$DIR"
 
-# Check if the download and extraction were successful
+# Ellenőrizze, hogy a letöltés és a kicsomagolás sikeres volt-e
 if [ $? -eq 0 ]; then
   download_and_extract_gtfs
 
